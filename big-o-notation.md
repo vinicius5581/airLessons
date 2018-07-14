@@ -1,4 +1,4 @@
-# Big-O notation
+# Notaçāo Big-O (Big-O notation)
 
 ## Analize simplificada da eficiência de algoritimos
 Big-O notation nos da uma noçāo de quanto tempo um algoritimo leva para rodar.
@@ -11,7 +11,7 @@ Um algoritmo pode ser analizado de algumas maneiras diferentes:
 - best-case (melhor cenário)
 - average-case (cenário mediano)
 
-Big-O notation geralmente analiza o pior cenário.
+Big-O notation geralmente analiza o pior cenário (limites assintóticos superiores).
 
 ## Algumas regras
 - Ignore constantes
@@ -24,6 +24,18 @@ Big-O notation geralmente analiza o pior cenário.
 
 
 ### Constant time
+```
 x = 5 + (15 * 20);
 y = 15-2;
 print x + y;
+```
+
+### Examples
+
+#### O(n!)
+#### O(2^n)
+#### O(n^2)
+#### O(n log n)
+#### O(n)
+#### O(log n)
+#### O(1)

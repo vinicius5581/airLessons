@@ -19,6 +19,9 @@ Big-O notation geralmente analiza o pior cenário.
 - Ordem de prioridades (ignore os termos com menores ordens)
 `O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(2^n) < O(n!)`
 
+![Big-O Complexity Chart](https://github.com/vinicius5581/airWriter/blob/master/img/bigOcomplexityChart.png "Big-O Complexity Chart")
+
+
 
 ### Constant time
 x = 5 + (15 * 20);
